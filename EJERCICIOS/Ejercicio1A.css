@@ -1,0 +1,19 @@
+p
+{
+	border : solid;
+	border-color: brown;
+	font-family: Verdana;
+	font-size: 30px;
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+div
+{
+	color: chocolate;
+	border: dotted;
+	font-family: Verdana;
+	padding-top: 5px;
+	padding-bottom: 5px
+}

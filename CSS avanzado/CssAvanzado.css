@@ -1,0 +1,91 @@
+body {
+font-family: Arial, Verdana;
+font-size: 11;
+}
+
+tr:nth-child(odd) {
+background-color: #F2F2F2;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+th {
+background-color: mediumslateblue;
+color: white;
+}
+
+th, td {
+text-align: left;
+padding: 8px;
+}
+tr:hover{
+	background-color: coral;
+	color: white;
+}
+
+.divresponsivo {
+
+overflow-x: auto;
+
+}
+.divBordes {
+
+border-radius: 30px;
+
+background-color: coral;
+
+}
+
+#borderedondeado {
+
+border: 2px solid black;
+
+border-radius: 30px;
+
+}
+
+#bordeconimagen {
+
+border: 14px solid transparent;
+border-image: url('Logo.png') 9 round; /* Resto de los browsers */
+
+}
+
+#imagenesdefondo {
+
+background: url('Logo.png') right bottom no-repeat, url('Instagram.png') left top repeat;
+
+padding: 15px;
+
+}
+
+#lineal {
+
+background: linear-gradient(to bottom right, blue, lightblue);
+
+}
+
+#radial {
+
+background: radial-gradient(darkblue, blue, lightblue 70%);
+
+}
+
+.divFondoGradiente{
+	background: blue;
+
+	height: 100px;
+
+	width: 100%;
+}
+
+h1{
+	font-family: Helvetica;
+
+	color: white;
+
+	text-align: center;
+}

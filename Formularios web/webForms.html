@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMULARIOS WEB</title>
+</head>
+<body>
+	<form id="form" name="form1" action="ingreso.php" type="multipart/form-data" application/x-www-form-urlencoded  method="post" target="_blank">
+
+		<label for="nombre">Nombre:</label>
+		<input type="text" name="nombre" maxlength="10" autofocus="">
+		
+		<br>
+		<label for="edad">Edad:</label>
+		<input type="number" name="edad" max="70" min="30" step="5">
+
+		<br>
+		<label for="vainilla" >vainilla</label>
+		<input type="checkbox" name="vainilla" checked="">
+
+		<br>
+		<label for="color">Color:</label>
+		<input type="color" name="color">
+
+		<br>
+		<label for="fecha">Fecha:</label>
+		<input type="date" name="fecha">
+
+		<br>
+		<label for="time">Tiempo:</label>
+		<input type="time" name="time">
+
+		<br>
+		<label for="datetimelocal">Date time Local:</label>
+		<input type="datetime-local" name="datetimelocal">
+
+		<br>
+		<label for="Contrasena">Contrasena:</label>
+		<input type="password" name="Contrasena">
+
+		<br>
+		<label for="Mesanio">Mes y ano:</label>
+		<input type="month" name="Mesanio">
+
+		<br>
+		<label for="nocheck">No se puede sacar el check:</label>
+		<input type="radio" name="nocheck">
+
+		<br>
+		<label for="nocheck2">No se puede sacar el check 2:</label>
+		<input type="radio" name="nocheck">
+
+		<br>
+		<label for="rango">Rango: </label>
+		<input type="range" name="rango" max="10" min="5">
+
+		<br>
+		<label for="resetear">RESET</label>
+		<input type="reset" name="resetear">
+
+		<br>
+		 <!-- <label for="buscar">Realizar busqueda: </label>      (no hace falta que tenga label)-->
+		<input type="search" name="buscar">
+
+		<br>
+		<label for="enviar">ENVIAR</label>
+		<input type="submit" name="enviar" value="Enviar (esto fue hecho con 'value'">
+
+		<br>
+		<label for="telefono">Ingrese su Telefono : </label>
+		<input type="tel" name="telefono">
+
+		<br>
+		<label for="mail">Ingrese su mail: </label>
+		<input type="email" name="mail">
+
+		<br>
+		<label for="URL">Ingrese la URL: </label>
+		<input type="url" name="URL">
+
+		<br>
+		<label for="semana">Ingrese que semana se encuentra:</label>
+		<input type="week" name="semana">
+
+		<br>
+		<label for="1">asd</label>
+		<input type="submit" name="1">
+
+		<br>
+		<label for="observ">Observaciones</label>
+		<textarea id="obser" name="obs" form="form" rows="4" cols="50"></textarea>
+
+		<br>
+		<input type="button" name="boton" value="Enviar">
+
+		<br>
+		<input type="file" name="Archivo">
+
+		<br>
+		<label for="hid">Oculto</label>
+		<input type="hidden" name="hid" value="pancho">
+
+		<br>
+		<label for="img">IMAGEN</label>
+		<input type="image" name="img" src="Twitter.png" height="20px" width="20px">
+
+
+
+
+
+
+
+
+
+
+
+	</form>
+
+</body>
+</html>

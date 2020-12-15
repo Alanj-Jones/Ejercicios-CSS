@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMULARIO</title>
+	<link rel="stylesheet" type="text/css" href="Ejercicio_Formularios.css">
+
+</head>
+
+<body>
+	<div class="login">
+		<img class="logoEpic" src="LogoEpic.png">
+		<br>
+		<ul>
+			<li> <a href="#"> <img class="imgLogoFb" src="Fb.png">  </a> </li>
+			<li> <a href="#"> <img class="imgLogoGoogle" src="google.png"> </a></li>
+			<li> <a href="#"> <img class="imgLogoPs" src="playstation.png"> </a> </li>
+			<ll> <a href="#"> <img class="imgLogoXbox" src="xbox.png"> </a> </li>
+			<li> <a href="#"> <img class="imgLogoNintendo" src="nintendo.png"> </a> </li>
+		</ul>
+		<br>
+		<p>INICIAR SESION</p>
+
+		<form id="EpicForm" type="multipart/form-data" application/x-www-form-urlencoded  method="post" target="_blank" action="Base_de_datos.php">
+
+			<label for="nom_usuario"></label>
+			<input class="input_usuario" type="text" name="nom_usuario" placeholder="Nombre de usuario o correo electronico" >
+			<br>
+			<br>
+
+			<label for="pass_usuario"></label>
+			<input class="input_usuario" type="password" name="pass_usuario" placeholder="Contrasena" >
+			<br>
+			<br>
+
+			<label for="recordarme">Recordarme</label>
+			<input type="checkbox" name="recordarme">
+
+			<label for="contrasena_olvidada"></label>
+			<input class="contra_olvidada" type="submit" name="contrasena_olvidada" value="Has olvidado tu contrasena?">
+
+			<br>
+			<br>
+			<br>
+
+			<label for="iniciar_sesion"></label>
+			<input class="submit_login" type="submit" name="iniciar_sesion" value="INICIAR SESION AHORA">
+
+			<br>
+			<br>
+			<br>
+			<br>
+
+			<label for="registrar" class="cuenta">No tienes una cuenta?</label>
+			<input class="registro" type="submit" name="registrar" value="Registrate">
+
+		</form>
+	</div>
+
+	<footer>Epic Games® 2020</footer>
+
+</body>
+</html>

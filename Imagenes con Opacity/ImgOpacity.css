@@ -1,0 +1,41 @@
+body
+{
+	margin:10px 10px;
+	background-color: #666666;
+	font-family: Verdana;
+	font-style: normal;
+}
+
+h1
+{
+	color: #FFFFFF;
+}
+
+div.imagen
+{
+	background: url(comida.jpg);
+	background-size: 9
+	00px 110px;
+
+	background-repeat: no-repeat;
+	border: 2px solid white;
+	width: 90%;
+	height: 90%;
+}
+
+div.caja-translucida
+{
+	margin: 20px;
+	font-size: 14px;
+	font-stretch: condensed;
+	background-color: #333333;
+	border:2px solid #FFFFFF;
+	opacity: 0.7;
+}
+
+div.caja-translucida p
+{
+	margin:3%;
+	text-align: center;
+	color: #FFFFFF;
+}

@@ -1,0 +1,55 @@
+body
+{
+	margin:10px 10px;
+	font-family: Verdana;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+.menu
+{
+position: relative;
+display: inline-block;
+}
+
+.boton-seleccion
+{
+	background-color: #FFFFFF;
+	color: #999999;
+	padding: 8px;
+	font-size: 14px;
+	border: 1px solid #FFCC00;
+	cursor: pointer;
+}
+
+.menu:hover .boton-seleccion
+{
+	color: #FFFFFF;
+	background-color: #FFCC00;
+	border: 1px solid #999999;
+}
+
+.menu .tooltipText
+{
+	visibility: hidden;
+	width: auto;
+	top: 110%;
+	left: 50%;
+	color: #666666;
+	border-color: #FFFF99;
+	background-color: #FFCC00;
+	font-size: 11px;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px;
+	box-shadow: 1px 1px 10px #999999;
+	position: absolute;
+	z-index: 1;
+}
+
+.menu:hover .tooltipText
+{
+	visibility: visible;
+	opacity: 0;
+	transition: opacity 5s;
+}

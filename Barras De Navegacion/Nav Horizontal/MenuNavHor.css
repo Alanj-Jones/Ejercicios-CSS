@@ -1,0 +1,123 @@
+html
+{
+	
+}
+body
+{
+	margin: 0;
+	font-family: Arial;
+	font-style: normal;
+	font-stretch: condensed;
+}
+div
+{
+	margin-left: 0;
+	padding: 40px 40px;
+	height: 600px;
+	font-size: 14px;
+	margin-top: 20px;
+
+}
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	background-color: #333333;
+	font-stretch: normal;
+	overflow: hidden;
+	box-shadow: 0px 7px 15px #999999;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li
+{
+	float: left;
+	border-right: 1px solid #EEEEEE;
+}
+
+li a
+{
+	display: block;
+	color: #CCCCFF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a.active
+{
+	background-color: #CCCCFF;
+	color: #000000;
+	font-weight: bold;
+}
+
+li a:hover:not(.active)
+{
+	background-color: #f5f5f5;
+	color: #CCCCFF;
+	text-decoration:underline;
+}
+
+li :last-child
+{
+	border-right: none;
+	border-left: solid 1px #EFEFEF;
+}
+
+footer
+{
+	text-align: center;
+	text-decoration: none;
+	background-color: #333333;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 16px;
+	box-shadow: 0px -4px 15px #999999;
+}
+
+.fuentePiePagina
+{
+	font-size: 12px;
+	color: #CCCCFF;
+	display: inline;
+}
+
+.imagenLogo
+{
+	padding: 4px 4px;
+}
+
+div.redes
+{
+	display:inline-block;
+	position:fixed;
+	padding: 6px;
+	left: 0;
+	top: 200px;
+	width: 20px;
+	height: 88px;
+	background-color: #333333;
+	border :solid 1px #666666;
+	box-shadow: 2px 2px 10px #999999;
+}
+
+.imagenRedesSociales
+{
+	height: 20px;
+	width: 20px;
+	padding-left: : 6px ;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 6px;
+}
+
+p
+{
+	font-size: 20px;
+	color: red;
+}

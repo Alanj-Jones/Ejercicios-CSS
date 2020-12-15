@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multimedia</title>
+</head>
+<body>
+	<audio controls="" preload="">
+		<source src="Sensei.MP3" type="audio/MP3">
+	</audio>
+
+	<video width="720" height="500" controls="">
+		<source src="coffin.mp4" type="video/mp4">
+	</video>
+
+	<object data="CV ALAN 2020.pdf" type="application/pdf" name="pdf" width="400" height="500">
+	
+	</object>
+
+	<iframe iframe width="560" height="315" src="https://www.youtube.com/embed/X3RdXUB0mhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.6197902371823!2d12.481084265768636!3d41.90103327922031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6053278340d5%3A0xf676f1e1cc02bbb6!2sFontana%20di%20Trevi!5e0!3m2!1ses!2sar!4v1587167015595!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+	<canvas id="canvas" width="200" height="100" style="border:1px solid #000000;" ></canvas>
+
+	<script type="text/javascript">
+		var c = document.getElementById('canvas');
+		var ctx = c.getContext("2d");
+		ctx.moveTo(0,0);
+		ctx.lineTo(200, 100);
+		ctx.stroke();
+		ctx.font = "30px Verdana";
+		ctx.strokeText("Hello", 10,50);
+
+	</script>
+
+</body>
+</html>
